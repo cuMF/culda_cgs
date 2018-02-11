@@ -1,0 +1,10 @@
+*.o
+culda
+obj/*
+Theta*
+theta*
+Phi*
+phi*
+Topics*
+topics*
+*ini
