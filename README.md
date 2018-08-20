@@ -28,8 +28,9 @@ Then you can run ./culda for LDA sampling, the usage is:
     ./culda [options]
   
  Possible options<br />
-     -g <numer of GPUs> <br />
-     -k <topic number>: currently only support 1024<br />
+ 
+    -g <numer of GPUs> <br />
+    -k <topic number>: currently only support 1024<br />
      -t <number of iterations><br />
      -s <number of thread blocks>: it has been deprecated<br />
      -a <alpha>: 50/1024 for our tested data sets<br />
