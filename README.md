@@ -31,13 +31,13 @@ Then you can run ./culda for LDA sampling, the usage is:
  
     -g <numer of GPUs> <br />
     -k <topic number>: currently only support 1024<br />
-     -t <number of iterations><br />
-     -s <number of thread blocks>: it has been deprecated<br />
-     -a <alpha>: 50/1024 for our tested data sets<br />
-     -b <beta>: 0.01 for our tested data sets<br />
-     -c <number of input data chunks>: must be equal with -g, and must be consistency with the specified chunk number in the data prepration stage<br />
-     -i <input file name prefix>: Same with the output_prefix in the data preparation stage.<br />
-     -o <output file name prefix>: It's not used now. Rewrite ModelPhi::savePhi and ModelTheta::saveTheta as you need it.<br />
+    -t <number of iterations><br />
+    -s <number of thread blocks>: it has been deprecated<br />
+    -a <alpha>: 50/1024 for our tested data sets<br />
+    -b <beta>: 0.01 for our tested data sets<br />
+    -c <number of input data chunks>: must be equal with -g, and must be consistency with the specified chunk number in the data prepration stage<br />
+    -i <input file name prefix>: Same with the output_prefix in the data preparation stage.<br />
+    -o <output file name prefix>: It's not used now. Rewrite ModelPhi::savePhi and ModelTheta::saveTheta as you need it.<br />
 
 CuLDA_CGS outputs the number of processed token per sec and the loglikelyhood after each iteration.
   
